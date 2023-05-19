@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# This is a sample CentOS shell script
+
+# Print a welcome message
+echo "Hello, CentOS!"
+
+# Display system information
+echo "System Information:"
+echo "Hostname: $(hostname)"
+echo "Kernel Version: $(uname -r)"
+echo "Total Memory: $(free -h | awk '/^Mem/ {print $2}')"
+echo "CPU Model: $(grep 'model name' /proc/cpuinfo | uniq | sed 's/.*: //')"
+echo "Disk Usage: $(df -h / | awk '/^\/dev/ {print $5}')"
+
+# Install a package using yum
+echo "Installing a package..."
+sudo yum install -y <package-name>
+
+# Display a list of installed packages
+echo "Installed Packages:"
+rpm -qa
+
+# End of the script
+echo "Script execution completed."
+
