@@ -1,4 +1,12 @@
+
+# Devopslab
+I made this feature branch
+
  Devopslab
+ add a new feature: feature_dev
+
+
+
 add a new branch dev2
 I forget to push it
 steps:
@@ -7,3 +15,4 @@ git add .
 git commit - m "Add a new branch dev2"
 git push -u origin dev2
 Then done
+
