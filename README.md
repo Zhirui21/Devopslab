@@ -1,6 +1,10 @@
 
 # Devopslab
 I made this feature branch
+
+what git diff mean?
+will it show in the readme if there are conflicts
+
 I added somthing to see if there's conflict
 I added somthing to see if there's conflict
 I added somthing to see if there's conflict
